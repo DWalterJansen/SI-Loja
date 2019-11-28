@@ -9,12 +9,12 @@ class Produto {
     public function getColumns(){
         return ["idProduto", "Nome", "quantidadeEstoque", "precoUnitario"];
     }
-    
+
     public function getAll(){
         return[
             'idProduto' => $this->idProduto,
-			'Nome' => $this->Nome,
-			'quantidadeEstoque' => $this->quantidadeEstoque,
+      			'Nome' => $this->Nome,
+      			'quantidadeEstoque' => $this->quantidadeEstoque,
             'precoUnitario' => $this->precoUnitario
         ];
     }
@@ -24,7 +24,7 @@ class Produto {
         $this->quantidadeEstoque = $data['quantidadeEstoque'];
         $this->precoUnitario = $data['precoUnitario'];
     }
-    
+
     public function setIdProduto($idProduto){
         $this->idProduto = $idProduto;
     }

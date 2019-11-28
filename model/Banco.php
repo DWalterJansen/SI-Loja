@@ -16,7 +16,6 @@ class Banco
     {
         try {
             $this->_connection = new PDO(DNS, BD_USUARIO, BD_SENHA);
-            echo "Conexão Bem Sucessida";
         } catch (PDOException $e) {
             echo 'Connection failed: ' . $e->getMessage();
         }
