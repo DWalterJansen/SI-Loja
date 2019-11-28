@@ -1,0 +1,11 @@
+Login:
+    Descrição                                id                                     nome
+Nome do Usuário                         id="login_nome"                         name="login_nome"
+Senha do Usuário                        id="login_senha"                        name="login_senha"
+Botão de Entrar                         id="login_entrar"                       name="login_entrar"
+Botão de Cadastrar                      id="login_cadastrar"                    name="login_cadastrar"
+Carrinho:
+    Descrição                               id                                      nome
+Botão de Aplicar Cupom                  id="carrinho_aplicar"                   name="carrinho_aplicar"
+Botão de Atualizar Valor                id="carrinho_atualizar"                 name="carrinho_atualizar"
+Botão de Finalizar                      id="carrinho_finalizar"                 name="carrinho_finalizar"
